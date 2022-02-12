@@ -24,18 +24,27 @@ section {
 }
 
 div {
+    padding: 1%;
+    float:left;
+}
+
+article {
+
     border: 1px solid black;
     background-color: grey;
     float: left;
+
 }
 
 h1 {
-    border: 1px solid black;
-    text-align: center;
-    margin-top: 0;
-    width: 30%;
     position: relative;
+    text-align: center;
+    width: 30%;
     left: 70%;
+    border: 1px solid black;
+    margin-top: 0%;
+    margin-right: 0%;
+    margin-left:0%;
 }
 
 .chicken { 
@@ -51,7 +60,7 @@ h1 {
 
 p {
     width: 90%;
-    height: 150px;
+    height: 160px;
     margin-right: auto;
     margin-left: auto;
     overflow: auto;
@@ -70,7 +79,7 @@ p {
         width: 50%;
     }
     div:nth-child(3) {
-        width:100%;
+        width: 100%;
     }
     #hdr {
         padding: 3%;
@@ -81,6 +90,7 @@ p {
 @media (max-width: 767px) {
     div {
         width: 100%;
+        padding: 2%;
     }
     #hdr {
         padding: 5%;
@@ -92,23 +102,24 @@ p {
 <body>
     <header id=hdr>Our Menu</header>
 
-    <span></span>
-
     <section>
         <div>
-            <h1 class="chicken">Chicken</h1>
-            <p>You can talk about your pet chicken with its brown feathers and funny feet, but you might also use the word chicken to order dinner at a restaurant: "I'll have the chicken." When a person is described as a chicken, it means she's easily scared or a coward. The Old English cicen, "young fowl," is the source of chicken. Calling someone chicken for being frightened has been hurting feelings since the 14th century.</p>
+            <article>
+                <h1 class="chicken">Chicken</h1>
+                <p>You can talk about your pet chicken with its brown feathers and funny feet, but you might also use the word chicken to order dinner at a restaurant: "I'll have the chicken." When a person is described as a chicken, it means she's easily scared or a coward. The Old English cicen, "young fowl," is the source of chicken. Calling someone chicken for being frightened has been hurting feelings since the 14th century.</p>
+            </article>
         </div>
-
         <div>
-            <h1 class="beef">Beef</h1>
-            <p>Beef is a type of meat from cattle. If you've ever had a hamburger, you've had beef. The word beef comes from the Old French word buef, which became the word for basically, cow meat. Beef is to cow as pork is to pig or mutton is to sheep. On the other hand, if you have a beef with someone, you have a complaint. Beefing is expressing such feelings.
-            </p>
+            <article>
+                <h1 class="beef">Beef</h1>
+                <p>Beef is a type of meat from cattle. If you've ever had a hamburger, you've had beef. The word beef comes from the Old French word buef, which became the word for basically, cow meat. Beef is to cow as pork is to pig or mutton is to sheep. On the other hand, if you have a beef with someone, you have a complaint. Beefing is expressing such feelings.                </p>
+            </article>
         </div>
-
         <div>
-            <h1 class="sushi">Sushi</h1>
-            <p>Sushi comes from a Japanese word meaning "sour rice," and it's the rice that's at the heart of sushi, even though most Americans think of it as raw fish. In fact, it's the word sashimi that refers to a piece of raw fish. When you eat sushi, you might eat cooked egg and rice, avocado and rice, or cooked fish and rice, as well as sushi made with raw fish and rice.</p>
+            <article>
+                <h1 class="sushi">Sushi</h1>
+                <p>Sushi comes from a Japanese word meaning "sour rice," and it's the rice that's at the heart of sushi, even though most Americans think of it as raw fish. In fact, it's the word sashimi that refers to a piece of raw fish. When you eat sushi, you might eat cooked egg and rice, avocado and rice, or cooked fish and rice, as well as sushi made with raw fish and rice.</p>
+            </article>
         </div>
     </section>
     
